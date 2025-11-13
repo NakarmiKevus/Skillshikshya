@@ -1,0 +1,253 @@
+.third-section {
+    /* background-color: grey; */
+    padding: 25px;
+    margin-top: 100px;
+
+}
+
+.third-content {
+    /* background-color: red; */
+    padding: 25px;
+}
+
+.third-content-heading h4 {
+    font-size: 24px;
+    margin: 0;
+    color: #414141;
+}
+
+.third-content-heading h2 {
+    font-size: 32px;
+    margin: 0;
+    line-height: 200%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 50px;
+}
+
+.first-card-row,
+.second-card-row {
+    display: flex;
+    gap: 32px;
+}
+
+.student-with-clarity,
+.learning,
+.get-mentor,
+.acheive {
+    width: 100%;
+    border-radius: 30px;
+    padding: 25px;
+    position: relative;
+    display: flex;
+}
+
+.student-with-clarity {
+    background-color: #F45B5B;
+    text-align: end;
+}
+
+.std-img img {
+    margin-top: -3%;
+    margin-left: -10%;
+    position: absolute;
+    z-index: 2;
+    animation-name: course1;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    background-color: rgb(32, 32, 32, .7);
+}
+
+.std-content {
+    background-color: rgb(201, 199, 199, .6);
+    padding-left: 40%;
+}
+
+.student-with-clarity h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.student-with-clarity h4 {
+    color: white;
+    font-size: 24px;
+}
+
+.student-with-clarity p {
+    color: white;
+    font-size: 18px;
+    margin: 0%;
+    line-height: 200%;
+}
+
+
+.learning {
+    background-color: #5492A0;
+    text-align: justify;
+}
+
+.learn-img {
+    /* background-color: rgb(90, 61, 61, .5); */
+    position: absolute;
+    margin-top: -4%;
+    margin-left: 65%;
+    z-index: 2;
+    animation-name: course2;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.learn-content {
+    /* background-color: rgb(201, 199, 199, .6); */
+    padding-right: 40%;
+}
+
+.learn-content h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.learn-content h4 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.learn-content p {
+    color: white;
+    font-size: 18px;
+    margin: 0%;
+    line-height: 200%;
+}
+
+
+.get-mentor {
+    background-color: #6C64A8;
+    text-align: end;
+}
+
+.get-img img {
+    margin-top: 10%;
+    margin-left: -10%;
+    position: absolute;
+    animation-name: course3;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* background-color: rgb(32, 32, 32, .7); */
+}
+
+.get-content {
+    /* background-color: rgb(201, 199, 199, .6); */
+    padding-left: 40%;
+}
+
+.get-content h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.get-content h4 {
+    color: white;
+    font-size: 24px;
+}
+
+.get-content p {
+    color: white;
+    font-size: 18px;
+    margin: 0%;
+    line-height: 200%;
+}
+
+.acheive {
+    background-color: #A88964;
+    text-align: justify;
+}
+
+.acheive-img {
+    /* background-color: rgb(90, 61, 61, .5); */
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 60%;
+    animation-name: course4;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.acheive-content {
+    /* background-color: rgb(201, 199, 199, .6); */
+    padding-right: 40%;
+}
+
+.acheive-content h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.acheive-content h4 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.acheive-content p {
+    color: white;
+    font-size: 18px;
+    margin: 0%;
+    line-height: 200%;
+}
+
+@keyframes course1 {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(10%);
+    }
+}
+
+@keyframes course2 {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(10%);
+    }
+}
+
+@keyframes course3 {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(10%);
+    }
+}
+
+@keyframes course4 {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(10%);
+    }
+}

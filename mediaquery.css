@@ -1,0 +1,29 @@
+@media (max-width:1000px) {
+    .navbar li {
+        display: none;
+    }
+}
+
+@media (max-width:1000px) {
+    .hovering_img {
+        display: none;
+    }
+}
+
+@media (max-width:1000px) {
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        scale: .5;
+    }
+}
+
+
+@media (max-width:1000px) {
+
+    .first-card-row,
+    .second-card-row {
+        flex-direction: column;
+    }
+}

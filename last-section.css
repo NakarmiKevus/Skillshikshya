@@ -1,0 +1,111 @@
+.last-section {
+    /* background-color: blue; */
+    padding: 25px;
+    margin-top: 100px;
+
+}
+
+.last-content {
+    background-color: #1DAA7E;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 32px;
+}
+
+.last-content-transition {
+    display: flex;
+    justify-content: space-between;
+    /* animation-name: roaming;
+    animation-duration: 30s;
+    animation-direction: linear;
+    animation-iteration-count: infinite; */
+}
+
+.last-content-transition h1 {
+    /* background-color: black; */
+    color: white;
+    font-size: 82px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.last-content-contents {
+    /* background-color: red; */
+    display: flex;
+    gap: 50px;
+
+}
+
+.contact,
+.company,
+.links,
+.social-media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex: 1;
+    /* background-color: yellow; */
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    flex: 2;
+}
+
+.contact-content,
+.contact-number {
+    /* background-color: black; */
+    color: white;
+    font-size: 18px;
+    padding-right: 30%;
+}
+
+.company {
+    flex-direction: column;
+    gap: 50px
+}
+
+.company-header {
+    /* background-color: blue; */
+    margin-top: -50px;
+}
+
+.links {
+    flex-direction: column;
+    gap: 50px
+}
+
+.link-header {
+    /* background-color: blue; */
+    margin-top: -65px;
+}
+
+.social-media {
+    flex-direction: column;
+    gap: 50px;
+}
+
+.social-media-header {
+    /* background-color: blue; */
+    margin-top: -270px;
+}
+
+.social-media-logo {
+    /* background-color: blue; */
+    display: flex;
+    gap: 24px;
+}
+
+.last-content-footer {
+    /* background-color: black; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}

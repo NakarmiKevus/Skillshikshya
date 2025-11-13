@@ -1,0 +1,120 @@
+.hero-section {
+  width: 100%;
+  height: 785px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-section {
+  position: relative;
+  width: 1190px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.center-section {
+  width: 681px;
+  height: auto;
+  text-align: center;
+}
+
+.hovering_img {
+  position: absolute;
+  animation-name: hovering;
+  animation-duration: 1.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+#hi1 {
+  top: 0;
+  left: 0;
+}
+
+#hi2 {
+  top: 40%;
+  left: 5%;
+}
+
+#hi3 {
+  top: 90%;
+  left: 10%;
+}
+
+#hi4 {
+  top: 0;
+  right: 0;
+}
+
+#hi5 {
+  top: 50%;
+  right: 5%;
+}
+
+#hi6 {
+  top: 90%;
+  right: 10%;
+}
+
+@keyframes hovering {
+  from {
+    transform: translateY(-50px);
+  }
+
+  to {
+    transform: translateY(50px);
+  }
+}
+
+.center-section h1 {
+  font-size: 64px;
+  color: #2b2b2b;
+  display: inline;
+  margin-right: 16px;
+  margin-bottom: 1000px;
+}
+
+.center-section p {
+  font-size: 28px;
+  color: #565656;
+  margin: 0;
+  line-height: 150%;
+}
+
+.transitions {
+  background-color: #0c4332;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.transitions .roaming {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  font-size: 28px;
+  position: relative;
+  font-family: "Nohemi", sans-serif;
+  animation-name: roaming;
+  animation-duration: 30s;
+  animation-direction: linear;
+  animation-iteration-count: infinite;
+  width: fit-content;
+}
+
+@keyframes roaming {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}

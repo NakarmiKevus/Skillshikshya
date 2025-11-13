@@ -1,0 +1,52 @@
+.eighth-section {
+    background-color: blue;
+    padding: 25px;
+    margin-top: 100px;
+
+}
+
+.eighth-content {
+    background-color: red;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 32px;
+}
+
+.eighth-content-header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eighth-content-header-left h4 {
+    font-size: 32px;
+}
+
+.eighth-content-content {
+    background-color: black;
+    display: flex;
+    gap: 32px;
+}
+
+.e-left,
+.e-right {
+    background-color: yellow;
+    width: 100%;
+}
+
+.e-right {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.e-right-top {
+    background-color: grey;
+}
+
+.e-right-bottom {
+    background-color: grey;
+}
