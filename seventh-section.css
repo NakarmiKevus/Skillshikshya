@@ -1,0 +1,156 @@
+.seventh-section {
+    /* background-color: red; */
+    padding: 25px;
+    margin-top: 100px;
+
+}
+
+.seventh-content {
+    /* background-color: gray; */
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.seventh-hero {
+    /* background-color: yellow; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.transition-img {
+    position: absolute;
+    transition: 1s ease;
+}
+
+#gif1 {
+    top: 10%;
+    left: 45%;
+}
+
+#gif2 {
+    top: 10%;
+    left: 55%;
+}
+
+#gif3 {
+    top: 35%;
+    left: 65%;
+}
+
+#gif4 {
+    top: 57%;
+    left: 63%;
+}
+
+#gif5 {
+    top: 75%;
+    left: 57%;
+}
+
+#gif6 {
+    top: 75%;
+    left: 47%;
+}
+
+#gif7 {
+    top: 75%;
+    left: 37%;
+}
+
+#gif8 {
+    top: 59%;
+    left: 30%;
+}
+
+#gif9 {
+    top: 35%;
+    left: 28%;
+}
+
+#gif10 {
+    top: 10%;
+    left: 35%;
+}
+
+
+.seventh-center {
+    text-align: center;
+    margin: 200px;
+}
+
+.seventh-center p {
+    font-size: 24px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+.seventh-center h2 {
+    font-size: 32px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+}
+
+.seventh-p {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+.seventh-p p {
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+.seventh-hero:hover #gif1 {
+    top: 15%;
+    left: 45%;
+}
+
+.seventh-hero:hover #gif2 {
+    top: 5%;
+    left: 60%;
+}
+
+.seventh-hero:hover #gif3 {
+    top: 25%;
+    left: 70%;
+}
+
+.seventh-hero:hover #gif4 {
+    top: 57%;
+    left: 70%;
+}
+
+.seventh-hero:hover #gif5 {
+    top: 75%;
+    left: 62%;
+}
+
+.seventh-hero:hover #gif6 {
+    top: 90%;
+    left: 47%;
+}
+
+.seventh-hero:hover #gif7 {
+    top: 77%;
+    left: 33%;
+}
+
+.seventh-hero:hover #gif8 {
+    top: 53%;
+    left: 27%;
+}
+
+.seventh-hero:hover #gif9 {
+    top: 29%;
+    left: 20%;
+}
+
+.seventh-hero:hover #gif10 {
+    top: 5%;
+    left: 30%;
+}

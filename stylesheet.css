@@ -23,6 +23,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Nohemi', sans-serif;
+  background-color: #f0f0f0;
 }
 
 p {
@@ -31,13 +32,12 @@ p {
 
 .dropdown {
   position: absolute;
-  display: flex;
+  display: none;
   flex-direction: column;
   text-align: center;
   padding: 25px;
   top: 70%;
   left: 75%;
-  display: none;
   background-color: white;
   border: 1px solid;
   border-radius: 10px;
@@ -50,73 +50,26 @@ p {
   line-height: 100%;
 }
 
-.row1 {
-  display: flex;
-  gap: 32px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.row2 {
-  display: flex;
-  gap: 32px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.row3 {
-  display: flex;
-  gap: 32px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.row4 {
-  display: flex;
-  gap: 32px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.row5 {
-  display: flex;
-  gap: 32px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.row6 {
-  display: flex;
-  gap: 32px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.row7 {
-  display: flex;
-  gap: 32px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.row8 {
-  display: flex;
-  gap: 32px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.row9 {
-  display: flex;
-  gap: 32px;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .compiler:hover .dropdown {
   display: block;
 }
 
 .dropdown:hover {
   cursor: pointer;
+}
+
+/* SINGLE CLASS FOR ALL ROWS */
+.row1,
+.row2,
+.row3,
+.row4,
+.row5,
+.row6,
+.row7,
+.row8,
+.row9 {
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  align-items: center;
 }

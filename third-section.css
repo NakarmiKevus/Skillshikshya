@@ -61,11 +61,11 @@
     animation-direction: alternate;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    background-color: rgb(32, 32, 32, .7);
+    /* background-color: rgb(32, 32, 32, .7); */
 }
 
 .std-content {
-    background-color: rgb(201, 199, 199, .6);
+    /* background-color: rgb(201, 199, 199, .6); */
     padding-left: 40%;
 }
 

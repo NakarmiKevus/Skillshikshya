@@ -87,8 +87,6 @@
 .transitions {
   background-color: #0c4332;
   display: flex;
-  width: 100%;
-  height: 100px;
   justify-content: center;
   position: relative;
   overflow: hidden;
@@ -100,13 +98,12 @@
   align-items: center;
   gap: 70px;
   font-size: 28px;
-  position: relative;
   font-family: "Nohemi", sans-serif;
   animation-name: roaming;
   animation-duration: 30s;
   animation-direction: linear;
   animation-iteration-count: infinite;
-  width: fit-content;
+
 }
 
 @keyframes roaming {
